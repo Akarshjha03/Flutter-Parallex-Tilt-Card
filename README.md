@@ -22,12 +22,12 @@ Parallax Tilt Card is a Flutter application demonstrating advanced UI engineerin
 <table>
   <tr>
     <td align="center">
-      <img src="assets/ss.jpg" width="300" alt="Screenshot" />
+      <img src="assets/screenshot2.jpg" width="300" alt="Screenshot" />
       <br />
       <b>Screenshot</b>
     </td>
     <td align="center">
-      <img src="assets/promotion.gif" width="300" alt="Demo GIF" />
+      <img src="assets/promotion1.gif" width="300" alt="Demo GIF" />
       <br />
       <b>Animation</b>
     </td>
