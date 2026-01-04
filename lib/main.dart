@@ -398,7 +398,7 @@ class _HoloCardState extends State<HoloCard>
                             ),
                             const SizedBox(height: 8),
                             Text(
-                              "Roman Reigns 1316 days historic reign",
+                              "Roman Reigns 1316 days reign",
                               style: TextStyle(
                                 color: Colors.grey[600],
                                 fontSize:
