@@ -64,21 +64,15 @@ Get the latest release here: [GitHub Releases](https://github.com/Akarshjha03/Fl
 
 ---
 
-## 🗺️ StoryTelling
+## 🤝 Contributing
+Contributions are welcome! Here's how you can help:
 
-### ☝️ Roman Reigns’ 1316-Day Reign of Terror: A GOAT-Level Dynasty
+- Fork the repository
+- Create a feature branch (git checkout -b feature/AmazingFeature)
+- Commit your changes (git commit -m 'Add some AmazingFeature')
+- Push to the branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
 
-Eyes locked like a final boss.
-Paul Heyman selling every breath as history unfolding.
-
-When his music hit, the crowd didn’t cheer or boo **they acknowledged.**
-
-The Bloodline became the greatest storytelling weapon WWE ever used, with Heyman as the narrator of a dynasty.
-
-This wasn’t just a long reign. it was **GOATED performance.**
-Every title defense told a chapter.
-Every promo felt like prophecy.
-
-1316 days wasn’t impressive because of numbers, it was impressive because it never felt stale.
-
-By the end, Roman Reigns wasn’t just a champion, he was a once-in-a-generation character WWE rarely gets. 🐐🔥
+<p align="center">
+  ⭐ If you find this project useful, please consider giving it a star — it really helps!
+</p>
