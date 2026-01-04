@@ -9,6 +9,14 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
 </p>
 
+---
+
+## 🚀 Project Description
+
+Parallax Tilt Card is a Flutter application demonstrating advanced UI engineering without external dependencies. It implements a custom 3D rendering pipeline using Matrix4 transformations and accelerometer-mimicking gesture control. The project features custom shaders for dynamic lighting, golden glitter particle effects using BlendMode.overlay, and physics-based spring animations for realistic interaction.
+
+---
+
 ## 📱 Demo
 
 <table>
@@ -56,19 +64,21 @@ Get the latest release here: [GitHub Releases](https://github.com/Akarshjha03/Fl
 
 ---
 
-## ☝️ Roman Reigns’ 1316-Day Reign of Terror — A GOAT-Level Dynasty
+## 🗺️ StoryTelling
+
+### ☝️ Roman Reigns’ 1316-Day Reign of Terror: A GOAT-Level Dynasty
 
 Eyes locked like a final boss.
 Paul Heyman selling every breath as history unfolding.
 
-When his music hit, the crowd didn’t cheer or boo — **they acknowledged.**
+When his music hit, the crowd didn’t cheer or boo **they acknowledged.**
 
 The Bloodline became the greatest storytelling weapon WWE ever used, with Heyman as the narrator of a dynasty.
 
-This wasn’t just a long reign — it was **GOATED performance.**
+This wasn’t just a long reign. it was **GOATED performance.**
 Every title defense told a chapter.
 Every promo felt like prophecy.
 
-1316 days wasn’t impressive because of numbers — it was impressive because it never felt stale.
+1316 days wasn’t impressive because of numbers, it was impressive because it never felt stale.
 
-By the end, Roman Reigns wasn’t just a champion — he was a once-in-a-generation character WWE rarely gets. 🐐🔥
+By the end, Roman Reigns wasn’t just a champion, he was a once-in-a-generation character WWE rarely gets. 🐐🔥
