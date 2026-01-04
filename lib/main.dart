@@ -20,7 +20,26 @@ class HoloTiltApp extends StatelessWidget {
           0xFFF5F5F7,
         ), // Light apple-gray / white
       ),
-      home: const Scaffold(body: Center(child: HoloCard())),
+      home: const Scaffold(
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                "Parallax Tilt Card",
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 28,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 1.2,
+                ),
+              ),
+              SizedBox(height: 50),
+              HoloCard(),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
@@ -143,9 +162,9 @@ class _HoloCardState extends State<HoloCard>
                     borderRadius: BorderRadius.circular(20),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.black.withAlpha(
-                          60,
-                        ), // Softer shadow for white bg
+                        color: const Color(
+                          0xFFB8860B,
+                        ).withAlpha(100), // Golden shadow
                         blurRadius: 40,
                         spreadRadius: -15,
                         offset: const Offset(0, 20), // Slight downward cast
@@ -180,10 +199,11 @@ class _HoloCardState extends State<HoloCard>
                             decoration: const BoxDecoration(
                               gradient: LinearGradient(
                                 colors: [
-                                  Color(0xFFE0C3FC), // Periwinkle
-                                  Color(0xFF8EC5FC), // Light Blue
-                                  Color(0xFFFFD1FF), // Pink
-                                  Color(0xFFFAD0C4), // Peach
+                                  Color(0xFFBF953F), // Dark Gold / Bronze
+                                  Color(0xFFFCF6BA), // Pale Gold
+                                  Color(0xFFB38728), // Gold
+                                  Color(0xFFFBF5B7), // Light Gold
+                                  Color(0xFFAA771C), // Deep Gold
                                 ],
                                 begin: Alignment.topLeft,
                                 end: Alignment.bottomRight,
@@ -201,7 +221,7 @@ class _HoloCardState extends State<HoloCard>
                                 bottom: 20.0,
                               ),
                               child: Image.asset(
-                                'assets/dolphin.png',
+                                'assets/roman_reigns.jpg',
                                 fit: BoxFit.contain,
                               ),
                             ),
@@ -223,10 +243,10 @@ class _HoloCardState extends State<HoloCard>
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    "Your Archetype",
+                                    "WWE",
                                     style: TextStyle(
                                       color: Colors.white,
-                                      fontSize: 16,
+                                      fontSize: 20,
                                       fontWeight: FontWeight.w500,
                                       shadows: [
                                         Shadow(
@@ -287,9 +307,22 @@ class _HoloCardState extends State<HoloCard>
                                     gradient: LinearGradient(
                                       colors: [
                                         Colors.transparent,
-                                        Colors.cyan.withAlpha(100),
-                                        Colors.purple.withAlpha(100),
-                                        Colors.amber.withAlpha(100),
+                                        Color(
+                                          0xFFFFD700,
+                                        ).withAlpha(100), // Gold
+                                        Colors.white.withAlpha(
+                                          200,
+                                        ), // Sparkle White
+                                        Color(
+                                          0xFFFFD700,
+                                        ).withAlpha(100), // Gold
+                                        Colors.transparent,
+                                        Color(
+                                          0xFFDAA520,
+                                        ).withAlpha(100), // GoldenRod
+                                        Colors.white.withAlpha(
+                                          200,
+                                        ), // Sparkle White
                                         Colors.transparent,
                                       ],
                                       begin: Alignment(
@@ -353,7 +386,7 @@ class _HoloCardState extends State<HoloCard>
                                 ),
                                 SizedBox(width: 8),
                                 Text(
-                                  "The Producer",
+                                  "The Tribal Chief",
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontSize: 22,
@@ -365,7 +398,7 @@ class _HoloCardState extends State<HoloCard>
                             ),
                             const SizedBox(height: 8),
                             Text(
-                              "20.3% of users share this archetype",
+                              "Roman Reigns 1316 days historic reign",
                               style: TextStyle(
                                 color: Colors.grey[600],
                                 fontSize:
