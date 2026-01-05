@@ -73,6 +73,8 @@ Contributions are welcome! Here's how you can help:
 - Push to the branch (git push origin feature/AmazingFeature)
 - Open a Pull Request
 
-<p align="center">
-  ⭐ If you find this project useful, please consider giving it a star — it really helps!
-</p>
+---
+
+<h2 align="center">
+  ⭐ If you find this project useful, please consider giving it a star
+</h2>
